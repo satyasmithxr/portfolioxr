@@ -1,0 +1,138 @@
+#footbar{
+    position: static;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+    z-index: 9999;
+    background-image: linear-gradient(to right, #b92b27, #1565c0);
+    background-size: 150%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px -10px 20px, rgba(0, 0, 0, 0.23) 0px -6px 6px;
+    padding: 0px;
+    transition: 2s;
+    font-size: 9px;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.phone_img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 6px; 
+}
+.number{
+    display: inline;
+    height: 8px;
+    line-height: 8px;
+
+}
+.phone a{
+    color: white;
+    text-decoration: none;
+}
+.email{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.email_img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 6px; 
+}
+.email_desc{
+    display: inline;
+    height: 8px;
+    line-height: 8px;
+
+}
+.email a{
+    color: white;
+    text-decoration: none;
+}
+.instagram{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.insta_img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 6px; 
+}
+.instagram_desc{
+    display: inline;
+    height: 8px;
+    line-height: 8px;
+}
+.instagram a{
+    color: white;
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .phone_img{
+        width: 30px;
+        height: 30px;
+    }
+    .number_desc{
+        font-size: 15px;
+
+    }
+    .email_img{
+        width: 30px;
+        height: 30px;
+
+    }
+    .email_desc{
+        font-size: 15px;
+
+    }
+    .insta_img{
+        width: 30px;
+        height: 30px;
+
+    }
+    .instagram_desc{
+        font-size: 15px;
+
+    }
+
+
+}
+  
+  @media (width: 1536px) {
+      #footer{
+          height: 15vh;
+      }
+    .phone_img{
+        width: 30px;
+        height: 30px;
+    }
+    .number{
+        font-size: 15px;
+
+    }
+    .email_img{
+        width: 30px;
+        height: 30px;
+
+    }
+    .email_desc{
+        font-size: 15px;
+
+    }
+    .insta_img{
+        width: 30px;
+        height: 30px;
+
+    }
+    .instagram_desc{
+        font-size: 15px;
+
+    }
+  }

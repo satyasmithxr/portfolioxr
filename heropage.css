@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    padding: 0px 15px;
+}
+.hero_container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+.hello{
+    color: white;
+    font-size: 15vw;
+    font-family: 'Arizonia', cursive;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #ff512f, #f09819);
+    border-image-slice: 1;
+    border-radius: 3px;
+    line-height: 53px;
+    padding: 0px 10px;
+}
+.me{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    line-height: 24px;
+}
+@media (min-width: 768px){
+    .hello{
+        line-height: 112px;
+        padding: 0px 22px;
+
+    }
+    .me{
+        font-size: 23px;
+        letter-spacing: 2.5px;
+        line-height: 36px;
+    }
+    
+}
+
+@media (width: 1536px){
+    .hello{
+        font-size: 10vw;
+        line-height: 150px;
+        padding: 0px 44px;
+
+    }
+    .me{
+        font-size: 23px;
+        letter-spacing: 8px;
+        line-height: 42px;
+
+    }
+
+}

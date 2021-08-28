@@ -1,0 +1,68 @@
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white;
+  color: black;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background: rgba(255, 255, 255, 0.3); */
+  margin-bottom: 20px;
+  /* transition: 3s; */
+  width: 100%;
+  height: 100vh;
+}
+.heading1 {
+  /* background-color: white; */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  /* background: linear-gradient(to right, #b92b27, #1565c0);  */
+  background: rgba(255, 255, 255, 0.1); 
+  font-family: "Dancing Script", cursive;
+  border-radius: 8px;
+  font-size: 19px;
+  font-weight: 400;
+  transition: 3s;
+  padding: 69px 9px;
+
+}
+.career_head{
+  position: relative;
+  left: 1px;
+  top: -16px;
+}
+.career_desc {
+  /* display: center;
+  justify-content: center;
+  align-items: center; */
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  padding: 35px 0px;
+}
+.career_desc a {
+  color: #142d4c;
+  text-decoration: none;
+}
+.heading1:hover{
+  background: rgba(255, 255, 255, 0.6);
+}
+/* #about:visited{
+  background: rgba(255, 255, 255, 0.8);
+} */
+@media (min-width: 768px) {
+  .heading1 {
+    font-size: 36px;
+  }
+  .career_desc {
+    font-size: 18px;
+  }
+}
+
+@media (width: 1536px) {
+  .heading1 {
+    font-size: 42px;
+  }
+  .career_desc {
+    font-size: 20px;
+  }
+}

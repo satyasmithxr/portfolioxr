@@ -1,0 +1,246 @@
+#interests{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    /* padding: 10px 0px; */
+    /* background: rgba(255, 255, 255, 0.6);  */
+}
+.motorcycle_container{
+    background: white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:fit-content; */
+    margin: 7vh 0vw;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    border-radius: 5px;
+    opacity: 0.3;
+    transition: 1.5s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.motorcycle_card{
+    width: 190px;
+    height: 140px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    display: block;
+    
+}
+.motorcycle_img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+.motorcycle_desc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    bottom: -14%;
+}
+.gaming_container{
+    background: white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:fit-content; */
+    margin: 7vh 0vw;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    border-radius: 5px;
+    opacity: 0.3;
+    transition: 1.5s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.gaming_card{
+    width: 190px;
+    height: 140px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    display: block;
+}
+.gaming_img{
+    width: 100%;
+    height: 100%;
+
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.gaming_desc{
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    bottom: -14%;
+}
+.cinema_container{
+    background: white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:fit-content; */
+    margin: 7vh 0vw;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    border-radius: 5px;
+    opacity: 0.3;
+    transition: 1.5s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.cinema_card{
+    width: 190px;
+    height: 140px;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    display: block;
+}
+.cinema_img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.cinema_desc{
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    bottom: -14%;
+}
+.motorcycle_container:hover{
+    opacity: 0.8;
+}
+.motorcycle_card:hover{
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+}
+.gaming_container:hover{
+    opacity: 0.8;
+}
+.gaming_card:hover{
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+}
+.cinema_container:hover{
+    opacity: 0.8;
+}
+.cinema_card:hover{
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+}
+@media (min-width: 768px) {
+   .motorcycle_container{
+        padding-bottom: 100px;
+    }   
+    .motorcycle_card{
+        width: 380px;
+        height: 380px;
+    }
+    .motorcycle_card:hover{
+        width: 400px;
+        height: 400px;
+        transition: 1s;
+    }    
+    .gaming_container{
+        padding-bottom: 100px;
+    }
+    .gaming_card{
+        width: 380px;
+        height: 380px;
+    }
+    .gaming_card:hover{
+        width: 400px;
+        height: 400px;
+        transition: 1s;
+    }
+    .cinema_container{
+        padding-bottom: 100px;
+    }
+    .cinema_card{
+        width: 380px;
+        height: 380px;
+    }
+    .cinema_card:hover{
+        width: 400px;
+        height: 400px;
+        transition: 1s;
+    }
+}
+  
+  @media (width: 1536px) {
+    #interests{
+        flex-direction: row;
+        height: 100vh;
+    }
+    .motorcycle_container{
+        padding-bottom: 120px;
+    }   
+    .motorcycle_card{
+        width: 350px;
+        height: 350px;
+    }
+    .motorcycle_card:hover{
+        width: 380px;
+        height: 380px;
+        transition: 1s;
+    }
+    .motorcycle_desc{
+        letter-spacing: 8px;
+        bottom: -12%;
+    }
+    .gaming_container{
+        padding-bottom: 120px;
+    }
+    .gaming_card{
+        width: 350px;
+        height: 350px;
+    }
+    .gaming_card:hover{
+        width: 380px;
+        height: 380px;
+        transition: 1s;
+    }
+    .gaming_desc{
+        letter-spacing: 8px;
+        bottom: -12%;
+    }
+    .cinema_container{
+        padding-bottom: 120px;
+    }
+    .cinema_card{
+        width: 350px;
+        height: 350px;
+    }
+    .cinema_card:hover{
+        width: 380px;
+        height: 380px;
+        transition: 1s;
+    }
+    .cinema_desc{
+        letter-spacing: 8px;
+        bottom: -12%;
+    }
+    
+}
