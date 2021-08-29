@@ -7,15 +7,14 @@
 } */
 html{
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
     background: linear-gradient(to right, #b92b27, #1565c0);
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: auto;
+    width: 100vw;
 }
 .container{
     padding: 0px 15px;
@@ -34,9 +33,6 @@ body{
     color: white;
     font-size: 15vw;
     font-family: 'Arizonia', cursive;
-    border-bottom: 2px solid transparent;
-    border-image: linear-gradient(to right, #ff512f, #f09819);
-    /* border-image-slice: 1; */
     border-radius: 3px;
     line-height: 53px;
     padding: 0px 10px;
